@@ -9,6 +9,14 @@
   <body>
     <div class="content">
       <div class="post">
+        <h2>Atomic file operations with zeugl</h2>
+        <p>
+          I wrote <a href="https://github.com/larsewi/zeugl">zeugl</a>, a small C library that provides atomic file operations.
+          It offers drop-in replacements for <code>open(2)</code> and <code>close(2)</code>, using temporary files and <code>rename(2)</code> to ensure updates are never partially written.
+        </p>
+      </div>
+
+      <div class="post">
         <h2>Efficient file streams with librsync</h2>
         <p>
           I recently wrote a <a href="https://cfengine.com/blog/2025/efficient-file-streams-with-librsync/">blog post</a> on implementing efficient file streams with <a href="https://github.com/librsync/librsync">librsync</a>.
