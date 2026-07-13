@@ -8,6 +8,20 @@ export type PostEntry = {
 
 export const posts: PostEntry[] = [
   {
+    slug: "leech2-cfengine-3-28",
+    title: "leech2 is now part of CFEngine 3.28",
+    body: (
+      <>
+        <a href="https://github.com/larsewi/leech2">leech2</a> is now part of
+        CFEngine 3.28. Read more in the{" "}
+        <a href="https://cfengine.com/blog/2026/cfengine-3-28-released-introspection/">
+          release blog post
+        </a>
+        .
+      </>
+    ),
+  },
+  {
     slug: "leech2",
     title: "Change tracking and replication with leech2",
     body: (
